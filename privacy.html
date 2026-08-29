@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LumiLoo &mdash; Privacy Policy</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         max-width: 720px; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.65;
+         color: #1b1b1b; background: #fff; }
+  h1 { margin-bottom: .25rem; }
+  h2 { margin-top: 2rem; }
+  a { color: #0b5cab; }
+  .updated { color: #666; }
+  code { background: #f2f2f2; padding: .1rem .3rem; border-radius: 3px; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 29 August 2026</p>
+
+  <p>This Privacy Policy describes how the LumiLoo video-production application
+     (&ldquo;the App&rdquo;) handles data when it accesses Google APIs. The App is
+     operated privately by the owner of the LumiLoo YouTube channel and is not
+     offered to other users.</p>
+
+  <h2>What the App does</h2>
+  <p>The App generates short videos and uploads them to the operator&rsquo;s own
+     YouTube channel. After an upload it reads back the resulting video&rsquo;s
+     status (for example its privacy setting and processing state) to confirm the
+     upload succeeded. It performs no other action on the YouTube account.</p>
+
+  <h2>Google user data the App accesses</h2>
+  <p>The App uses Google OAuth with the minimum scopes required:</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/youtube.upload</code> &mdash; to
+        upload videos to the operator&rsquo;s own channel.</li>
+    <li><code>https://www.googleapis.com/auth/youtube.readonly</code> &mdash; to
+        read back the operator&rsquo;s own channel and video details in order to
+        verify each upload.</li>
+  </ul>
+  <p>The App accesses only the operator&rsquo;s own YouTube account. It does not
+     access, collect, or process personal data belonging to any other person, and
+     it does not read viewer, subscriber, comment, or analytics data.</p>
+
+  <h2>How data is used and stored</h2>
+  <ul>
+    <li>The OAuth token issued by Google is stored solely on the operator&rsquo;s
+        own server, with file permissions restricting it to the operator, and is
+        used only to call the YouTube Data API for the purposes above.</li>
+    <li>Video files and their metadata (title, description, tags) are created by
+        the operator&rsquo;s pipeline and sent to YouTube; they are not shared
+        with any other third party.</li>
+    <li>No advertising, profiling, or analytics use is made of Google user data.</li>
+  </ul>
+
+  <h2>Data sharing</h2>
+  <p>The App does not sell or transfer Google user data to third parties. Data is
+     exchanged only between the operator&rsquo;s server and Google&rsquo;s APIs.</p>
+
+  <h2>Limited Use</h2>
+  <p>The App&rsquo;s use and transfer of information received from Google APIs
+     adheres to the
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+     API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Data retention and revocation</h2>
+  <p>The OAuth token is retained only while the pipeline is in use and is deleted
+     when no longer needed. Authorization can be revoked at any time from
+     <a href="https://myaccount.google.com/permissions">Google Account &rarr;
+     Third-party access</a>, which immediately ends the App&rsquo;s access.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy:
+     <a href="mailto:yossafikkene@gmail.com">yossafikkene@gmail.com</a></p>
+
+  <p><a href="index.html">&larr; Back to LumiLoo</a></p>
+</body>
+</html>
